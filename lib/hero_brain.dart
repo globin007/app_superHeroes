@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:quizzsuperhero/models/answer_model.dart';
 import 'package:quizzsuperhero/models/superhero_models.dart';
 

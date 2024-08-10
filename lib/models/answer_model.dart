@@ -5,7 +5,6 @@ class AnswerModel {
   bool isCorrect;
   Color color; 
 
-
   AnswerModel({
     required this.answer,
     required this.isCorrect,
