@@ -73,9 +73,9 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Color(0xff282E42),
       appBar: AppBar(
-        backgroundColor: Color(0xff282E42),
+      backgroundColor: Color(0xff282E42),
         title: Text(
-          "¿Qué superhéroe es?",
+          "¿Como se llama el superheroe?",
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -89,6 +89,7 @@ class _HomePageState extends State<HomePage> {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 3,
                 decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(16.0), // Ajusta el radio para redondear las esquinas
                   image: DecorationImage(
                     image: NetworkImage(
                       quizzHero.getHeroImg(),
